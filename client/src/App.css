@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url(./imgs/shh.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+
+}
+
+.loginBox {
+  margin-top: 50px;
+}
+
+.loginForm {
+  margin-top: 250px;
+}
+
+.nameInput{
+  min-height: 30px;
+  width: 200px;
+  margin: 10px;
+  background-color: #5815eb;
+  color: white;
+  border-radius: 3px;
+  font-weight: 900;
+  font-size: larger;
+  font-style: oblique;
+  text-shadow: 1px 1px #edb9ec;
+  /* transition: transform 0.1 ease-in-out; */
+  transition: transform 0.2s ease-in-out, background-color .4s ease-in-out;
+}
+
+.flexBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spy{
+  width: 40px;
+  height: 50px;
+  margin: 20px;
+  display: inline;
+  transition: transform .3s ease-in-out;
+}
+
+.spy:hover{
+  transform: rotateY(150deg);
+}
+
+label{
+  font-weight: bolder;
+  font-size: x-large;
+  color: #28086e;
+}
+
+.nameInput:focus{
+  background-color: #28086e;
+  transform-origin: bottom left;
+  transform: rotate(10deg);
+}
+
+.submitBtn {
+  min-height: 30px;
+  border-radius: 4px;
+  background-color: #612ebf;
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  transition: transform 0.1s ease-in-out;
+}
+
+.submitBtn:hover{
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, .5);
+  transform-origin: bottom left;
+  transform: scale(1.2) rotate(-10deg);
+}
+
+.welcome{
+  color: #4503a1;
+  text-shadow:2px 2px #edb9ec;
+}
+
+.messageBox{
+  min-height: 100px;
+  width: 200px;
+  margin: auto;
+  margin-top: 15px;
+  margin-right: 350px;
+  font-family: 'Roboto Mono', monospace;
+  color: #034b2f;
+  text-shadow:2px 2px #f28fc7;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(176, 127, 245, .8);
+}
+
+.userSpan{
+  color: rgb(122, 7, 30);
+}
+
+.fixedForm{
+  position: fixed; bottom: 75px; left: 40%;
+  /* margin: auto; */
+}
+
+.userDisplay{
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: rgba(155, 7, 160, 0.8);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  padding: 10px;
+  position: fixed; top: 20px; right: 20px;
+
+}
+
+.userList{
+  list-style: none;
+  align-items: center;
+}
+
